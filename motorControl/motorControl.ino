@@ -75,6 +75,7 @@ void setup() {
   digitalWrite(brkB, LOW);
 
   buzz(2);
+  Serial.print("Done");
 }
 
 void loop() {
